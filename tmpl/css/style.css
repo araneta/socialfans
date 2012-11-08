@@ -1,0 +1,36 @@
+ul.badges{font:normal 12px arial,helvetica,sans-serif;list-style:none;margin:0 0 0 25px;padding:15px 0 0 0;width:345px;height:61px;}
+ul.badges span.badge{background:transparent url('badges.png') left -200px no-repeat;cursor:hand;float:right;right:0;padding-left:14px;position:absolute;top:-10px;}
+ul.badges span.badge span{background:transparent url('badges.png') no-repeat right -130px;color:#FFF;display:block;font-weight:bold;height:23px;padding:5px 14px 0 1px;}
+ul.badges span.overlay{background:transparent url('badges.png') -114px -57px no-repeat;cursor:hand;display:block;height:61px;left:0;position:absolute;top:0;width:57px;}
+ul.badges li{float:left;height:61px;overflow:visible;position:relative;width:69px;margin:0 6px;}
+ul.badges li a{cursor:hand;display:block;float:left;height:61px;overflow:visible;text-decoration:none;width:57px;*width:43px;}
+ul.badges li a:hover{text-decoration:none;}
+ul.badges li a img{border:none;}
+ul.badges li a:hover span.badge{background:url('badges.png') no-repeat left -228px;}
+ul.badges li a:hover span.badge span{background:url('badges.png') no-repeat right -170px;}
+ul.badges img.feedburner{background:url(badges.png) 0 0 no-repeat;width:57px;height:57px;}
+ul.badges img.twitter{background:url(badges.png) -57px 0 no-repeat;width:57px;height:57px;}
+ul.badges img.delicious{background:url(badges.png) -114px 0px no-repeat;width:57px;height:57px;}
+ul.badges img.facebook{background:url(badges.png) 0 -57px no-repeat;width:57px;height:57px;}
+ul.badges img.linkedin{background:url(badges.png) -57px -114px no-repeat;width:57px;height:57px;}
+.modul-box,.sidebar{overflow:hidden;width:100%;margin:7px 0 0;padding:0 0 25px;}
+.modul-box, .sidebar, .links-box{overflow:hidden;width:100%;margin:8px 0 7px 0;padding:0;background-color: #eee;background-image:-webkit-gradient(linear,left top,left bottom,from(#EEEEEE),to(#FFFFFF),color-stop(0.6,#EDECEE)) ;background-image:-moz-linear-gradient(center top,#EEEEEE 0%,#EDECEE 60%,#FFFFFF 100%)}
+.modul-box.first{background-image:url(blank.gif);margin:0 0 7px 0;}
+.modul-box-top{background:url(sidebar_sprites.gif) 0 0 no-repeat;height:9px;width:368px;}
+.modul-box-bottom{height:16px;width:368px;background:url(sidebar_sprites.gif) 0 -180px no-repeat;}
+.modul-box-content,.modul-box-content .ad{width:368px;clear:both;background:url(modulbox-content-bg.gif) repeat-y left 100%;border-top:none;border-bottom:none;}
+.links-box .modul-box-content{padding:0 16px;}
+.modul-box-header{background:url(sidebar_sprites.gif) 0 -50px no-repeat;height:37px;width:342px;float:left;padding:0 16px 0 16px;}
+.modul-box-header.active{background:url(sidebar_sprites.gif) 0 -120px no-repeat;}
+.modul-box-header h3{color:#444;margin:10px 0 0 4px;text-shadow:#FFF 0 1px 0;}
+.modul-box-header a{color:#444;margin:10px 0 0 4px;}
+#tabs-widgetpost h3{background:transparent url(iphoneclub_icons_spritev5.png) no-repeat scroll -24px -128px;}
+#get-recent-comments h3{background:transparent url(iphoneclub_icons_spritev5.png) no-repeat scroll -24px -64px;}
+/*#tabs-shop h3{background:transparent url(iphoneclub_icons_spritev5.png) no-repeat scroll -24px -320px;}*/
+#tabs-widgetextern h3{background:transparent url(iphoneclub_icons_spritev5.png) no-repeat scroll -24px -608px;}
+.modul-box h3,.sidebar h3,.sidebar h3 a{padding:0 0 0 25px;color:#000;font-size:15px;line-height:18px;font-weight:bold;}
+.modul-box h3.note{background:#f0f0f0 url(iphoneclub_icons_spritev5.png) -24px -64px no-repeat;}
+.modul-box .expand,.modul-box .move{float:right;text-indent:-9999px;overflow:hidden;}
+.modul-box .move{background: url(iphoneclub_icons_spritev5.png) no-repeat -24px -576px;cursor:move;height:17px;width:16px;}
+.modul-box .expand{background: url(iphoneclub_icons_spritev5.png) no-repeat -24px -512px;cursor:pointer;height:17px;width: 16px;}
+.modul-box .active .expand{background: url(iphoneclub_icons_spritev5.png) no-repeat -24px -544px;}

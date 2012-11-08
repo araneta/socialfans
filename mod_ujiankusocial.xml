@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+	<name>Ujianku Social Module</name>
+	<author>Aldo S. Praherde</author>
+	<creationDate>January 2011</creationDate>
+	<copyright>(C) 2011</copyright>
+	<license>GPL</license>
+	<authorEmail>adminujianku@gmail.com</authorEmail>
+	<authorUrl>www.ujianku.com</authorUrl>
+	<version>1.0</version>
+	<description>This module will add facebook button with the number of fans, twitter button with the number of followers, delicious button with total posts, and feedburner button with the number of subscriber to your page making it easy for your visitors to submit your articles and build traffic to your website.</description>
+	<files>
+		<filename module="mod_ujiankusocial">mod_ujiankusocial.php</filename>						
+		<filename>helper.php</filename>
+		<filename>tmpl/default.php</filename>		
+		<filename>tmpl/css/badges.png</filename>
+		<filename>tmpl/css/blank.gif</filename>
+		<filename>tmpl/css/modulbox-content-bg.gif</filename>
+		<filename>tmpl/css/sidebar_sprites.gif</filename>
+		<filename>tmpl/css/style.css</filename>
+	</files>
+	<params>
+		<param name="feedburnerusername" type="text" default="" label="Feedburner Username" description="Feedburner Username" />
+		<param name="twitterusername" type="text" default="" label="Twitter Username" description="Twitter Username" />
+		<param name="delurl" type="text" default="" label="Delicious URL" description="your url" />
+		<param name="deltitle" type="text" default="" label="Delicious Title" description="your site title" />		
+		<param name="fbpageid" type="text" default="" label="Facebook Page ID" description="Facebook Page ID" />
+		<param name="fbpageurl" type="text" default="" label="Facebook Page URL" description="Facebook Page URL" />
+	</params>	
+</install>
